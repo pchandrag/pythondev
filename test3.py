@@ -1,5 +1,5 @@
 a = 5
-n = 20000
+n = 200
 
 def power(x,y):
 	if (y==0):
