@@ -1,4 +1,4 @@
-a = 2
+a = 5
 n = 20000
 
 def power(x,y):
