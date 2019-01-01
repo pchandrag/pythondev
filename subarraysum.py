@@ -20,9 +20,9 @@ s=[0]*size;
 
 print "test",test;
 for i in range(0,size):
-#	print "at ... ",i,test[i];
+	print "at ... ",i,test[i];
 	for j in range(0,i+1):
 		s[j]+=test[i];
-#		print "sum ..",j,i,test[i],s[j];
+		print "sum ..",j,i,test[i],s[j];
 		if (s[j] == sum):
 			print "Found It!",j,i,":",test[j:i+1];
